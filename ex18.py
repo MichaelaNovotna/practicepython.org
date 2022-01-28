@@ -44,7 +44,7 @@ def vyhodnot():
             print("You have " + str(num_of_cows) + " cow(s) and " + str(num_of_bulls) + " bull(s).")
         pokusu += 1
 
-# VSTUPY
+
 generated_num = generator()
 generated_num = str("".join([str(i) for i in generated_num]))
 vyhodnot()
